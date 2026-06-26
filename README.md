@@ -9,7 +9,7 @@ The system provides an Arabic RTL interface for visitors and an admin dashboard 
 
 This project is designed for an educational academy that offers training courses.  
 Users can browse available courses, register for a course, and access a simple Arabic interface.  
-The admin can log in to manage registrations and view submitted student information.
+The admin can log in to manage courses and view submitted student registrations.
 
 ---
 
@@ -21,6 +21,7 @@ The admin can log in to manage registrations and view submitted student informat
 - Course registration form
 - Admin login page
 - Admin dashboard
+- Course management
 - Registration management
 - Clean and simple design
 - Built for local XAMPP environment
@@ -49,13 +50,13 @@ training-courses-registration-system/
 ├── index.php
 ├── courses.php
 ├── register.php
+├── process_registration.php
 ├── login.php
 ├── dashboard.php
+├── manage_courses.php
+├── view_registrations.php
 ├── logout.php
 │
-├── style.css
-├── script.js
-│
 ├── database.sql
-│
-└── README.md
+├── README.md
+└── LICENSE
